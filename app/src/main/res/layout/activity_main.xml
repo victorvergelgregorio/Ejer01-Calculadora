@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tw_calculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/b_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/b_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/b_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/b_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/b_suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/b_resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/b_igual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/b_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C" />
+
+</LinearLayout>
